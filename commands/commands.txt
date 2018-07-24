@@ -1,0 +1,52 @@
+SE 3: Hello React
+	7. Setting up a Web Server
+		* yarn global add live-server (install live-server globaly)
+		** npm install -g live-server (if not work the last command with yarn we can use this one)
+		* live-server -v (check if live-server is installed)
+		* live-server public (raise up the server "public it's the folder")
+		* live-server public -p 8000 (other option to run the server with different port)
+	
+	9. Setting up Babel
+		* yarn global add babel-cli@6.24.1 (install the dependency babel)
+		** npm install -g babel-cli@6.24.1 (if not work the last with yarn we can use this one)
+		* babel --help (check if the babel-cli has been installed correct)
+		* yarn init (set up our project to use babel)
+		* yarn add babel-preset-react@6.24.1 babel-present-env@1.5.2 --save (install dependency)
+		* babel src/app.js --out-file=public/scripts/app.js --presets=env,react (compile jsx to js)
+		* babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch (watch the file and converted to js)
+
+SE6: Webpack
+	49. Avoid Global Modules
+		* sudo yarn global remove babel-cli live-server (delete all dependencies)
+		** sudo npm uninstall -g babel-cli live-server (delete all dependencies)
+		* yarn add live-server babel-cli@6.24.1
+		
+	50. Installing & Configuring Webpack
+		* yarn add webpack@3.1.0 (Install the dependency)
+		* node webpack.config.js (dump the file on terminal)
+
+	53. Importing npm Modules
+		* yarn add validator@8.0.0 (A library of string validators and sanitizers.)
+		* yarn add react@15.6.1 react-dom@15.6.1 (install react)
+
+	54. Setting up Babel with Webpack
+		* yarn add babel-core@6.25.0 babel-loader@7.1.1
+		** the only commands that we need to run the app are: yarn run serve && build
+
+	57. Webpack Dev Server
+		* yarn add webpack-dev-server@2.5.1 (webserve like live-server but from webpack)
+
+	58. ES6 class properties
+		* yarn add babel-plugin-transform-class-properties@6.24.1 (allows you to create simple components binding methods automatically)
+
+SE7: Using a Third-Party Component
+	61. Setting up React-Modal (https://github.com/reactjs/react-modal)
+		* yarn add react-modal@2.2.2
+
+	64. Setting up Webpack with SCSS
+		* yarn add style-loader@0.18.2 css-loader@0.28.4 (https://www.npmjs.com/package/style-loader)
+		* yarn add sass-loader@6.0.6 node-sass@4.5.3 (add dependencies for sass)
+
+SE8: Styling React
+	66. Reset That $#!*
+		* yarn add normalize.css
