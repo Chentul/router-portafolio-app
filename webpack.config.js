@@ -27,5 +27,6 @@ module.exports = {
 	devServer: { 
 	// set de devServer for webpack
 		contentBase: path.join(__dirname, 'public'),
+		historyApiFallback: true, // all the time will display index.html
 	}
 };

@@ -50,3 +50,10 @@ SE7: Using a Third-Party Component
 SE8: Styling React
 	66. Reset That $#!*
 		* yarn add normalize.css
+
+SE9: React-Router
+	77. React-Router 101
+		* Documentation https://reacttraining.com/react-router/
+		* yarn add react-router-dom@4.2.2
+
+
