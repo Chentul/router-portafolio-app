@@ -1,9 +1,9 @@
 {
-  "name": "expensify-app",
+  "name": "router-portafolio-react",
   "version": "1.0.0",
   "main": "index.js",
   "repository": {
-    "url": "git@github.com:Chentul/expensify-app.git",
+    "url": "git@github.com:Chentul/router-portafolio-app.git",
     "type": "git"
   },
   "author": "Vicente Noriega",
